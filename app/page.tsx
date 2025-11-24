@@ -154,7 +154,7 @@ export default function Home() {
                   Demo 1
                 </Button>
               </Link>
-              <Link href="https://www.youtube.com/watch?v=hlsRrl_adMY" target="_blank">
+              <Link href="https://www.youtube.com/watch?v=dKgA8jQQOrY" target="_blank">
                 <Button size="lg" className="w-full bg-purple-600 hover:bg-purple-700 text-white">
                   <Youtube className="mr-2 h-5 w-5" />
                   Demo 2
