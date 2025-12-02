@@ -129,7 +129,7 @@ export default function Home() {
               A concept app designed to connect consumers with local stores offering surplus food at discounted prices. 
               Built as a university project to demonstrate how technology can help reduce food waste.
             </p>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 max-w-5xl mx-auto mb-12">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto mb-8">
               <Link href="https://github.com/EcoPlate/ecoplate" target="_blank">
                 <Button size="lg" className="w-full bg-eco-600 hover:bg-eco-700 text-white">
                   <Smartphone className="mr-2 h-5 w-5" />
@@ -148,6 +148,8 @@ export default function Home() {
                   Download APK
                 </Button>
               </Link>
+            </div>
+            <div className="grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto mb-12">
               <Link href="https://www.youtube.com/watch?v=hlsRrl_adMY" target="_blank">
                 <Button size="lg" className="w-full bg-red-600 hover:bg-red-700 text-white">
                   <Youtube className="mr-2 h-5 w-5" />
@@ -158,6 +160,12 @@ export default function Home() {
                 <Button size="lg" className="w-full bg-purple-600 hover:bg-purple-700 text-white">
                   <Youtube className="mr-2 h-5 w-5" />
                   Demo 2
+                </Button>
+              </Link>
+              <Link href="https://youtu.be/NHykITH6g2k" target="_blank">
+                <Button size="lg" className="w-full bg-orange-600 hover:bg-orange-700 text-white">
+                  <Youtube className="mr-2 h-5 w-5" />
+                  Final Presentation
                 </Button>
               </Link>
             </div>
